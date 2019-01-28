@@ -54,7 +54,7 @@ function checkAnswer(index)
 		setTimeout(function(){
 			nextSequence();
 
-		},1000);
+		},500);
 	}
 }else {
       playSound("wrong");
